@@ -23,11 +23,11 @@ main{
     background-color: rgb(255, 255, 255);
     border: 1px solid black;
     border-radius: 20px;
-    width: 400px;
+    width: 380px;
     gap: 20px;
     box-shadow: 9px 9px;
      }
-.img{width: 350px;
+.img{
     height: 200px ;
     background-color: hsl(47, 88%, 63%); 
     border-radius: 10px;
@@ -57,6 +57,8 @@ h2{font-family:Figtree ; font-weight: 800;}
     border-radius: 3px;
     font-weight: 800;
 }
+.second-content h2{cursor:pointer}
+.second-content h2:hover{color: hsl(47, 88%, 63%);}
 .date{font-size: 14px;}
 .perfil{display: flex; gap: 10px;}
 .perfil img{width: 30px;}
