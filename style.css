@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{margin: 0px;
+ padding:0px;
+  box-sizing: border-box;
+   font-family: Figtree;
+font-size: 500;}
+main{
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+     
+    flex-direction:column ;
+}
+
+.main-div{ margin: auto;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 400px;
+    gap: 20px;
+    box-shadow: 9px 9px;
+     }
+.img{width: 350px;
+    height: 200px ;
+    background-color: hsl(47, 88%, 63%); 
+    border-radius: 10px;
+}
+.first-content{
+    display: flex;
+    flex-direction:column;
+    gap: 15px;  
+    font-weight: 500;
+    font-size: small;
+}
+h2{font-family:Figtree ; font-weight: 800;}
+.second-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.second-content p{color:hsl(0, 0%, 42%);}
+.learning-bottom{
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    padding-inline: 10px;
+    padding-block: 5px;
+    
+    align-self: start;
+    border-radius: 3px;
+    font-weight: 800;
+}
+.date{font-size: 14px;}
+.perfil{display: flex; gap: 10px;}
+.perfil img{width: 30px;}
+span{align-self: center;font-weight: 800;}
+
+.attribution{align-self: flex-start;}
